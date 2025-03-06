@@ -2052,7 +2052,7 @@ static void
 ApmFreeScreen(FREE_SCREEN_ARGS_DECL)
 {
     SCRN_INFO_PTR(arg);
-    vgaHWFreeHWRec(pScrn);
+    //vgaHWFreeHWRec(pScrn);
     ApmFreeRec(pScrn);
 }
 
